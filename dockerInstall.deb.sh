@@ -263,24 +263,24 @@ while [[ $OPT_POSITION -le $OPT_COUNT ]]; do
 done
 
 case $ACTION_TODO in
-  -ia)
+  ia)
     installReqPackages
     installDocker
     installDockerCompose
     ;;
-  -irp)
+  irp)
     installReqPackages
     ;;
-  -id)
+  id)
     installDocker
     ;;
-  -idc)
+  idc)
     installDockerCompose
     ;;
-  -rd)
+  rd)
     removeDocker
     ;;
-  -rdc)
+  rdc)
     removeDockerCompose
     ;;
 esac
